@@ -1,0 +1,29 @@
+1. O que é o Node.js?
+É um ambiente de execução, que prmiyte executar JavaScript.
+
+2. O Node.js usa qual linguagem de programação?
+ele utiliza a linguagem JavaScript
+
+3. O Node.js roda no navegador ou fora dele?
+Sim funciona em sistemas operacionais
+
+4. Para que serve o Node.js?
+Para executar codigos JavaScrit no servidor
+
+5. Qual comando é usado para executar um arquivo Node.js no terminal?
+O comando usado para executar um arquivo Node.js no terminal é node seguido do nome do arquivo. 
+
+6. O que é o npm ?
+O npm (Node Package Manager) é o gerenciador de pacotes padrão para Node.js, instalado automaticamente com ele
+
+7. O que significa a palavra módulo no Node.js?
+É um bloco de codigo javascript encapsulado, reutilizável e independenete
+
+8. O Node.js é mais usado no front-end ou no back-end ?
+É mais utilizado no back-end.
+
+9. O que é o arquivo package.json ?
+é um arquivo fundamental em projetos Node.js e JavaScript que atua como o manifesto e identificação do projeto, armazenando metadados importantes, scripts de automação e gerenciando as dependências de pacotes
+
+10. O Node.js é gratuito ou pago?
+É totalmente gratuito.
