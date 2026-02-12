@@ -1,0 +1,72 @@
+**1.** O que é o **Node.js**?
+Explique sua finalidade e por que ele é considerado um ambiente de execução e não uma linguagem de programação.a fina
+A finalidade é execultar JavaScript no servidor,  ele não é uma linguagem de propgramação porque ele não possui sintaxe própria nem regras gramaticais como o Python, Java ou JavaScript.
+
+**2.** Qual a diferença entre **Node.js** e **JavaScript executado no navegador**?
+Cite pelo menos **duas diferenças**.
+
+JavaScript é a linguagem de programação usada principalmente para criar interatividade 
+Node.js é um ambiente de execução
+
+**3.** O que é o **V8 Engine** e qual sua importância para o funcionamento do Node.js?
+
+ é um motor de execução de JavaScript de código aberto, de alto desempenho, desenvolvido pelo Google e escrito em C++
+
+**4.** Explique o conceito de **I/O não bloqueante** no Node.js.
+Por que isso melhora o desempenho de aplicações?
+
+é a capacidade que a plataforma tem de realizar operações demoradas — como ler arquivos, consultar bancos de dados ou fazer requisições de rede — sem interromper o fluxo principal de execução do código JavaScript. 
+
+**5.** O que é o **Event Loop**?
+Descreva, de forma resumida, como ele funciona.
+
+O Event Loop é o que faz o JavaScript ser rápido e eficiente para lidar com várias conexões simultâneas, pois ele não espera uma tarefa demorada acabar para iniciar a próxima. 
+
+**6.** O que são **módulos** no Node.js?
+Explique a diferença entre:
+
+* Módulos internos
+* Módulos externos
+* Módulos criados pelo desenvolvedor
+
+Módulo internos:
+Módulos internos no Node.js, mais comumente conhecidos como Core Modules ou módulos nativos, são bibliotecas fundamentais que já vêm embutidas na instalação do Node.js.
+
+modulo externo:
+Módulos externos no Node.js são bibliotecas ou pacotes de terceiros,  usados para adicionar funcionalidades específicas ao projeto sem precisar escrevê-las do zero.
+
+Módulo criado para desenvolver:
+ são arquivos ou diretórios JavaScript personalizados, criados para organizar, encapsular e reutilizar trechos de código em uma aplicação.
+
+
+**7.** Para que serve o arquivo **package.json** em um projeto Node.js?
+Cite pelo menos **três informações** que ele pode conter.
+
+O arquivo package.json é o coração de qualquer projeto Node.js. Ele serve como um arquivo de manifesto que gerencia as configurações, dependências, scripts e metadados do projeto [1, 2]. 
+
+1- dependencies / devDependencies: Lista os pacotes externos necessários para o funcionamento do projeto (ex: express, mongoose) ou apenas para desenvolvimento (ex: nodemon, jest) [1, 3].
+
+2- scripts: Comandos de linha de comando personalizados que podem ser executados com npm run <nome-do-script>, como "start": "node index.js" ou "test": "mocha" [1, 3].
+
+3- version: Define a versão atual do projeto (seguindo o versionamento semântico, ex: 1.0.0), crucial para rastrear atualizações e publicar pacotes [2]. 
+
+
+
+---
+
+**8.** O que é o **npm**?
+Explique sua função no desenvolvimento de aplicações Node.js.
+
+é o gerenciador de pacotes padrão para o ambiente de execução Node.js e o maior registro de software de código aberto do mundo.
+
+**9.** O que é uma **API REST** e como o Node.js pode ser usado para desenvolvê-la?
+
+é um conjunto de regras e convenções que permitem que diferentes sistemas de software se comuniquem pela internet, geralmente usando o protocolo HTTP.
+
+**10.** Cite **duas vantagens** e **duas desvantagens** do uso do Node.js em aplicações web.
+
+Alta performance e escalabilidade
+Uso de uma única linguagem
+
+Baixo desempenho em tarefas intensivas de CPU
+Complexidade no tratamento de erros 
