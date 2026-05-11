@@ -7,4 +7,10 @@ def  perfil()
 else;
  return 'acesso negado'
 responda:
+qual é a rota privada?
+('/perfil)
+O que acontece se o usuário não estiver logado?
+A página não permite ter acesso e volta a página de login
+qual mensagem aparece?
+acesso negado (faça o login)
 
