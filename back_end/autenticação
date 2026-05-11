@@ -1,5 +1,10 @@
 autenticação
 parte1-interpretação
 @app.route("\perfil)
-if perfil()
+def  perfil()
+ if usuario_logado;
+ return "Bem-vindo"
+else;
+ return 'acesso negado'
+responda:
 
